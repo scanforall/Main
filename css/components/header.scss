@@ -5,11 +5,17 @@
 
   &__top-menu {
     justify-content: space-between;
+    align-items: center;
+    min-height: 44px;
+
+    &__item {
+      flex: 1 1 auto;
+      padding: 5px;
+    }
   }
 
   &__tp {
     background: gray;
-    min-height: 44px;
   }
   
   &__mp {
@@ -22,4 +28,9 @@
     min-height: 57px;
   }
 
+}
+
+.logo {
+  display: flex;
+  align-items: center;
 }

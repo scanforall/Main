@@ -120,10 +120,19 @@ input {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 44px;
+}
+.header__top-menu__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 5px;
 }
 .header__tp {
   background: gray;
-  min-height: 44px;
 }
 .header__mp {
   background: brown;
@@ -132,6 +141,15 @@ input {
 .header__bp {
   background: blue;
   min-height: 57px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .menu {
