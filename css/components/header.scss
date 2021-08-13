@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+
+    @include tablets {
+      flex-direction: column;
+    }
+
+    @include phones {
+      flex-direction: row;
+    }
+  }
+}

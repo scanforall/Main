@@ -1,0 +1,73 @@
+.carousel {
+  background: $white;
+  min-height: rem(120px);
+  width: 100%;
+  display: flex;
+  
+
+  
+  // &__tablets {
+  //   @include tablets {
+  //     display: none;
+  //   }
+  // }
+
+  // &__desktops {
+  //   @include desktops {
+  //     display: none;
+  //   }
+  // }
+  
+  // &__largetablets {
+  //   @include largetablets {
+  //     display: none;
+  //   }
+  // }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  // &__block {
+  //   min-height: 200px;
+  // }
+ 
+
+  // &__item {
+  //   margin-right: rem(30px);
+
+  //   &:last-child {
+  //     margin-left: 0;
+  //   }
+  // }
+
+  // &__block {
+  //   max-height: rem(300px);
+  //   max-width: rem(1000px);
+  //   overflow: hidden;
+    
+  // }
+  
+  // &__img {
+
+  //   display: flex;
+  //   max-width:100px;
+  //   height: 87px;
+  // }
+
+}
+.bx-wrapper {
+  box-shadow: none;
+  border: 0px solid #fff;
+  background: transparent;
+  margin-bottom: 0;
+  max-width:$containerWidth !important;
+}
+
+// .bx-viewport {
+//   overflow: visible !important;
+// }
+
