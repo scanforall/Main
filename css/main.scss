@@ -25,14 +25,10 @@ $lightBlue:#49A1F3;
 $lightGreen:#29C9A1;
 
 //fonts
-
-$funny: 'ds_gooseregular';
-$decor: 'tolstyak_heavy';
 $strong: 'Roboto Condensed';
 
 
 //z-indexes
-
 $z-fixed-menu: 100;
 
 @import "media";
@@ -48,37 +44,8 @@ $z-fixed-menu: 100;
 
 
 //components
-@import "components/testlink";
 @import "components/wrapper";
 @import "components/header";
 @import "components/menu";
 @import "components/hamburger";
-@import "components/search";
-@import "components/carousel";
-@import "components/slider";
-@import "components/slide";
-@import "components/section";
-@import "components/preview";
-@import "components/poem";
-@import "components/description";
-@import "components/footer";
-@import "components/copyright";
-@import "components/share";
-@import "components/social";
-@import "components/socials";
-@import "components/content";
-@import "components/author";
-@import "components/method";
-@import "components/contacts";
-@import "components/catalog";
-@import "components/select";
-@import "components/page-error";
-@import "components/paint";
-@import "components/print";
-@import "components/coloring";
-@import "components/audio";
-@import "components/different";
-@import "components/diffgame";
-
-
-
+@import "components/container";

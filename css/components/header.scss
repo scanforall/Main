@@ -1,16 +1,25 @@
 .header {
   display: flex;
+  background: red;
+  min-height: 187px;
 
-  &__container {
-    display: flex;
+  &__top-menu {
     justify-content: space-between;
-
-    @include tablets {
-      flex-direction: column;
-    }
-
-    @include phones {
-      flex-direction: row;
-    }
   }
+
+  &__tp {
+    background: gray;
+    min-height: 44px;
+  }
+  
+  &__mp {
+    background: brown;
+    min-height: 86px;
+  }
+  
+  &__bp {
+    background: blue;
+    min-height: 57px;
+  }
+
 }
