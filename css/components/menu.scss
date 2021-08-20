@@ -1,8 +1,12 @@
 .menu {
-  background-color: $green;
-  min-height: rem(20px);
-  color: $white;
-  width: 100%;
-  position: relative;
+    display: flex;
+    justify-content: space-around;
 
+    &__link {
+        display: flex;
+    }
+
+    &__item {
+        margin-left: 10px;
+    }
 }
