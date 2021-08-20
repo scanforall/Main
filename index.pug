@@ -11,19 +11,26 @@ html(lang="en")
         .container
           .header__tp
             ul.header__top-menu
-              li.header__top-menu__item О нас
+              li.header__top-menu__item
+                a(href='#') О нас
               .line
-              li.header__top-menu__item Отзывы
+              li.header__top-menu__item
+                a(href='#') Отзывы
               .line
-              li.header__top-menu__item Гарантия
+              li.header__top-menu__item
+                a(href='#') Гарантия
               .line
-              li.header__top-menu__item Для юр лиц
+              li.header__top-menu__item
+                a(href='#') Для юр лиц
               .line
-              li.header__top-menu__item Оплата картой
+              li.header__top-menu__item
+                a(href='#') Оплата картой
               .line
-              li.header__top-menu__item Вызвать курьера
+              li.header__top-menu__item
+                a(href='#') Вызвать курьера
               .line
-              li.header__top-menu__item Контакты
+              li.header__top-menu__item
+                a(href='#') Контакты            
           .line__horizont
           .header__mp
             .logo
@@ -33,7 +40,27 @@ html(lang="en")
                   br
                   |SMARTPHONOFF
                 .logo__desc сервисный центр
-            .adress
+            .line__logo
+            .adress|Москва,
+              br
+              |м. Академическая,
+              br
+              |ул.Кедрова,  д. 13, корп. 2
+            .line__logo
+            .adress|Москва,
+              br
+              |м. Зябликово,
+              br
+              |ул. Воронежская,  д. 36, корп. 1
+            .line__logo
+            a.header__wa(title='Написать нам в WhatsApp', target='_blank', href='https://wa.me/79015555555')
+              img.header__wa__logo(src='./img/logo/whatsapp.svg', title='Ремонт Академическая, Зябликово WhatsApp', alt='Ремонт Зябликово WhatsApp')
+              .header__wa__text WhatsApp
+            .line__logo
+            .header__tel
+              a(href='tel:=+74993500001') +7 (499) 350-00-01
+              a(href='tel:=+79015555555') +7 (901) 555-55-55
+              span.header__tel__span ПН-СБ 10:00-20:00
           .line__horizont
           .header__bp 
             ul.header__bottom-menu
