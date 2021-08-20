@@ -25,7 +25,7 @@ $lightBlue:#49A1F3;
 $lightGreen:#29C9A1;
 
 //fonts
-$strong: 'Roboto Condensed';
+$strong: 'Roboto';
 
 
 //z-indexes
@@ -49,3 +49,4 @@ $z-fixed-menu: 100;
 @import "components/menu";
 @import "components/hamburger";
 @import "components/container";
+@import "components/line";

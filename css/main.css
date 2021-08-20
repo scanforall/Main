@@ -1,11 +1,6 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css";
 @import 'https://cdn.jsdelivr.net/gh/JNKKKK/MoreToggles.css/output/moretoggles.min.css';
-@font-face {
-  font-family: "strong";
-  src: url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 html {
   font-size: 14px;
 }
@@ -20,7 +15,7 @@ body {
 }
 
 body {
-  font-family: "dsgoose";
+  font-family: "Roboto";
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -89,7 +84,7 @@ input {
 .wrapper {
   background: #EDF0F5;
   color: #3F434A;
-  font-family: "Roboto Condensed";
+  font-family: "Roboto";
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,27 +102,27 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: red;
   min-height: 187px;
+  background: #FFF;
 }
 .header__top-menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   min-height: 44px;
+  margin-left: 10px;
 }
 .header__top-menu__item {
   padding: 10px;
-}
-.header__tp {
-  background: gray;
+  font-weight: bold;
 }
 .header__mp {
-  background: brown;
   min-height: 86px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .header__bp {
-  background: blue;
   min-height: 57px;
 }
 
@@ -138,6 +133,13 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.logo__text {
+  margin-left: 19px;
+}
+.logo__name {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .menu {
@@ -223,4 +225,12 @@ input {
   width: 95%;
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.line {
+  border-left: 1px solid #EDF0F5;
+  height: 26px;
+}
+.line__horizont {
+  border-top: 1px solid #EDF0F5;
 }

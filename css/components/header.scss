@@ -1,28 +1,31 @@
 .header {
   display: flex;
-  background: red;
   min-height: 187px;
+  background: $white;
 
   &__top-menu {
     align-items: center;
     min-height: 44px;
+    margin-left: 10px;
 
     &__item {
       padding: 10px;
+      font-weight: bold;
     }
   }
 
   &__tp {
-    background: gray;
+    
   }
   
   &__mp {
-    background: brown;
+    
     min-height: 86px;
+    display: flex;
   }
   
   &__bp {
-    background: blue;
+    
     min-height: 57px;
   }
 
@@ -31,4 +34,13 @@
 .logo {
   display: flex;
   align-items: center;
+
+  &__text {
+    margin-left: 19px;
+  }
+
+  &__name {
+    font-size: 18px;
+    font-weight: 700;
+  }
 }
