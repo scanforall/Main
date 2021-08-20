@@ -28,12 +28,6 @@ body {
   color: #3F434A;
 }
 
-.container {
-  width: 95%;
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
 h1,
 h2,
 h3,
@@ -117,19 +111,13 @@ input {
   min-height: 187px;
 }
 .header__top-menu {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   min-height: 44px;
 }
 .header__top-menu__item {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  padding: 5px;
+  padding: 10px;
 }
 .header__tp {
   background: gray;

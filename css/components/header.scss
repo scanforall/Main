@@ -4,13 +4,11 @@
   min-height: 187px;
 
   &__top-menu {
-    justify-content: space-between;
     align-items: center;
     min-height: 44px;
 
     &__item {
-      flex: 1 1 auto;
-      padding: 5px;
+      padding: 10px;
     }
   }
 
