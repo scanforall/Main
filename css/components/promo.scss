@@ -1,0 +1,31 @@
+.promo {
+    min-height: 362px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    &__bg {
+    
+       background: $blue
+ 
+    }
+
+    &__text {
+        color: $white;
+        
+        &-h2 {
+            font-size: 18px;
+            font-weight: 300;
+        }
+
+        &-h1 {
+            font-size: 48px;
+        }
+
+        &-h3 {
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+
+}

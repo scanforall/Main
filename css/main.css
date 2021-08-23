@@ -286,3 +286,36 @@ input {
 .menu__item {
   margin-left: 10px;
 }
+
+.promo {
+  min-height: 362px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.promo__bg {
+  background: #1860BA;
+}
+.promo__text {
+  color: #FFF;
+}
+.promo__text-h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+.promo__text-h1 {
+  font-size: 48px;
+}
+.promo__text-h3 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.section {
+  background: #1860BA;
+}
