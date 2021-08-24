@@ -1,0 +1,51 @@
+.device {
+    min-height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    &__list {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        margin-bottom: 10px;
+    }
+
+    &__item {
+        background: $white;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        padding: 11px;
+        min-width: 270px;
+        min-height: 244px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__name {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    &__tag {
+        display: flex;
+    }
+
+    &__price {
+        margin-right: 40px;
+    }
+
+    &__link {
+        background: $green;
+        color: white;
+        border-radius: 21px;
+        padding: 6px 12px;
+    }
+
+
+    
+}

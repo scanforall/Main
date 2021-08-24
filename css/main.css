@@ -238,10 +238,15 @@ input {
 .section {
   background: #EDF0F5;
 }
-.section__wrapper {
+.section__benefit {
   background: #FFF;
   min-height: 166px;
   border-radius: 10px;
+}
+.section__title {
+  padding: 35px 0px;
+  font-size: 26px;
+  text-transform: uppercase;
 }
 
 .line {
@@ -383,4 +388,65 @@ input {
   background: #3F434A;
   border-radius: 50%;
   margin: 6px;
+}
+
+.device {
+  min-height: 630px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.device__list {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.device__item {
+  margin-bottom: 10px;
+}
+.device__item {
+  background: #FFF;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  padding: 11px;
+  min-width: 270px;
+  min-height: 244px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  align-items: center;
+}
+.device__name {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+}
+.device__tag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.device__price {
+  margin-right: 40px;
+}
+.device__link {
+  background: #1B997A;
+  color: white;
+  border-radius: 21px;
+  padding: 6px 12px;
 }
