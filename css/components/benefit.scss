@@ -1,0 +1,47 @@
+.benefit {
+    min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    &__icon {
+        padding: 6px;
+    }
+
+    &__title {
+        flex-direction: row;
+        display: flex;
+        text-transform: uppercase;
+        font-weight: 600;
+        align-items: center;
+
+    }
+
+    &__list {
+        display: flex;
+        padding: 30px;
+        justify-content: space-between;
+    }
+
+    &__item {
+        flex-direction: column;
+        
+    }
+
+    &__desc {
+        flex-direction: column;
+        
+        &-text {
+
+            &::before {
+                content: "";
+                width: 6px;
+                height: 6px;
+                background: $black;
+                border-radius: 50%;
+                margin: 6px;
+
+            }
+        }
+    }
+}

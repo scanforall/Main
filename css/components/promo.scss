@@ -6,8 +6,7 @@
     
     &__bg {
     
-       background: $blue
- 
+       background: $blue;
     }
 
     &__text {
@@ -20,11 +19,14 @@
 
         &-h1 {
             font-size: 48px;
+            line-height: 0px
+
         }
 
         &-h3 {
             font-size: 18px;
             font-weight: 300;
+            line-height:20px;
         }
     }
 

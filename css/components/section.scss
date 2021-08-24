@@ -1,3 +1,9 @@
 .section {
-    background: $blue
+    background: $grayLight;
+
+    &__wrapper {
+        background: $white;
+        min-height: 166px;
+        border-radius: 10px;
+    }
 }

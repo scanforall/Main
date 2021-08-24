@@ -17,8 +17,6 @@ body {
 body {
   font-family: "Roboto";
   line-height: 1.42;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   position: relative;
   color: #3F434A;
 }
@@ -237,6 +235,15 @@ input {
   margin: 0 auto;
 }
 
+.section {
+  background: #EDF0F5;
+}
+.section__wrapper {
+  background: #FFF;
+  min-height: 166px;
+  border-radius: 10px;
+}
+
 .line {
   border-left: 1px solid #EDF0F5;
   height: 26px;
@@ -310,12 +317,70 @@ input {
 }
 .promo__text-h1 {
   font-size: 48px;
+  line-height: 0px;
 }
 .promo__text-h3 {
   font-size: 18px;
   font-weight: 300;
+  line-height: 20px;
 }
 
-.section {
-  background: #1860BA;
+.benefit {
+  min-height: 210px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.benefit__icon {
+  padding: 6px;
+}
+.benefit__title {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.benefit__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.benefit__item {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.benefit__desc {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.benefit__desc-text::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #3F434A;
+  border-radius: 50%;
+  margin: 6px;
 }
