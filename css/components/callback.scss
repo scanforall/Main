@@ -1,0 +1,49 @@
+.callback {
+    
+    background-image: url(../../img/bg/fon.png);
+    border-radius: 6px;
+    margin-top: 24px;
+
+    &__frame {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 30px;
+        color: $white;
+        
+    }
+
+    &__panel {
+        display: flex;
+    }
+
+    &__table {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    &__input {
+        border:0;
+        background: $white;
+        padding: 14px 20px;
+        border-radius: 6px;
+        margin-right: 10px;
+    }
+
+    &__button {
+        border:0;
+        background: $yellow;
+        padding: 14px 20px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    &__label {
+        color: $white;
+        font-size: 11px;
+    }
+}

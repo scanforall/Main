@@ -488,3 +488,55 @@ input {
 .brand__item {
   margin-bottom: 10px;
 }
+
+.callback {
+  background-image: url(../../img/bg/fon.png);
+  border-radius: 6px;
+  margin-top: 24px;
+}
+.callback__frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.callback__title {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #FFF;
+}
+.callback__panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.callback__table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.callback__input {
+  border: 0;
+  background: #FFF;
+  padding: 14px 20px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+.callback__button {
+  border: 0;
+  background: #FFF73F;
+  padding: 14px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.callback__label {
+  color: #FFF;
+  font-size: 11px;
+}

@@ -33,7 +33,7 @@ html(lang="en")
                 a(href='#') Контакты            
           .line__horizont
           .header__mp
-            .logo
+            a(href="").logo
               img(src="./img/logo/logo-footer.png", alt="")
               .logo__text
                 .logo__name|DOCTOR
@@ -41,13 +41,13 @@ html(lang="en")
                   |SMARTPHONOFF
                 .logo__desc сервисный центр
             .line__logo
-            .adress|Москва,
+            a.adress(href="#")|Москва,
               br
               |м. Академическая,
               br
               |ул.Кедрова,  д. 13, корп. 2
             .line__logo
-            .adress|Москва,
+            a.adress(href="#")|Москва,
               br
               |м. Зябликово,
               br
@@ -301,7 +301,21 @@ html(lang="en")
                   a.brand__link(href="#")
                     .brand__name Nvidia
                     img.brand__logo(src="./img/brand/nvidia.png", alt="")
-          
+      .section
+        .container
+          .callback
+            .callback__frame
+              .callback__table
+                .callback__title Заказать обратный звонок
+                .callback__panel
+                  input.callback__input(type="имя" placeholder="ВАШЕ ИМЯ")
+                  input.callback__input(type="номер" placeholder="НОМЕР")
+                  button.callback__button Перезвоните мне
+                .callback__acept
+                  input(type="checkbox" id="acept" )
+                  label.callback__label(for="acept") Нажимая на кнопку, «Перезвоните мне» вы даете согласие на обработку своих персональных данных в соотвествии с политикой конфиденциальности
+              img(src="./img/decor/callbackoperator.png", alt="").callback__image
+
       footer.footer
        
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
