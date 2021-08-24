@@ -158,6 +158,12 @@ input {
   font-size: 10px;
 }
 
+.footer {
+  min-height: 200px;
+  background: #FFF;
+  color: #3F434A;
+}
+
 .hamburger {
   display: none;
   margin-top: 15px;
@@ -391,7 +397,6 @@ input {
 }
 
 .device {
-  min-height: 630px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -449,4 +454,37 @@ input {
   color: white;
   border-radius: 21px;
   padding: 6px 12px;
+}
+
+.brand__list {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.brand__link {
+  background: #FFF;
+  border-radius: 10px;
+  padding: 11px;
+  min-width: 104px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.brand__name {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.brand__item {
+  margin-bottom: 10px;
 }
