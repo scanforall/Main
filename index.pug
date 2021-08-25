@@ -218,7 +218,7 @@ html(lang="en")
       .section
         .container
           .brand
-            .section__title Выберите брэнд для ремонта
+            .section__title Выберите бренд для ремонта
             .section__content
               ul.brand__list 
                 li.brand__item
@@ -315,7 +315,55 @@ html(lang="en")
                   input(type="checkbox" id="acept" )
                   label.callback__label(for="acept") Нажимая на кнопку, «Перезвоните мне» вы даете согласие на обработку своих персональных данных в соотвествии с политикой конфиденциальности
               img(src="./img/decor/callbackoperator.png", alt="").callback__image
-
+      .section
+        .container
+          .stock
+            .section__title Акции и скидки
+            ul.stock__list 
+              li.stock__item
+                a.stock__link(href="#")
+                  .stock__date с 02.08 по 03.09
+                  .stock__frame 
+                    img.stock__img(src="./img/discount/glass.png", alt="")
+                    .stock__desc 
+                      .stock__name
+                        |Защитное
+                        br
+                        |стекло
+                      .stock__value В подарок 
+              li.stock__item
+                a.stock__link.stock__link-blue(href="#")
+                  .stock__date с 02.08 по 03.09
+                  .stock__frame 
+                    img.stock__img(src="./img/discount/-500.png", alt="")
+                    .stock__desc 
+                      .stock__name
+                        |Защитное
+                        br
+                        |стекло
+                      .stock__value В подарок 
+              li.stock__item
+                a.stock__link.stock__link-green(href="#")
+                  .stock__date с 02.08 по 03.09
+                  .stock__frame 
+                    img.stock__img(src="./img/discount/2xdevices.png", alt="")
+                    .stock__desc 
+                      .stock__name
+                        |Защитное
+                        br
+                        |стекло
+                      .stock__value В подарок 
+              li.stock__item
+                a.stock__link(href="#")
+                  .stock__date с 02.08 по 03.09
+                  .stock__frame 
+                    img.stock__img(src="./img/discount/oldman.png", alt="")
+                    .stock__desc 
+                      .stock__name
+                        |Защитное
+                        br
+                        |стекло
+                      .stock__value В подарок 
       footer.footer
        
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')

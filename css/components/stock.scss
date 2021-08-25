@@ -1,0 +1,49 @@
+.stock {
+
+    &__list {
+        justify-content: space-between;
+    }
+
+    &__link {
+        background: $lightPink;
+        border-radius: 10px;
+        padding: 12px 40px;
+        min-width: 104px;
+        display: flex;
+        flex-direction: column;
+        color: $white;
+        align-items: center;
+
+        &-blue {
+            background: $lightBlue;
+        }
+
+        &-green {
+            background: $lightGreen;
+        }
+
+
+    }
+
+    &__frame {
+        display: flex;
+    }
+
+    &__desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    &__name {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    &__value {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}
