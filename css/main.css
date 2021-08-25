@@ -549,7 +549,7 @@ input {
 .stock__link {
   background: #ED96A6;
   border-radius: 10px;
-  padding: 12px 40px;
+  padding: 12px 30px;
   min-width: 104px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -562,12 +562,18 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .stock__link-blue {
   background: #49A1F3;
 }
 .stock__link-green {
   background: #29C9A1;
+}
+.stock__img {
+  margin-right: 14px;
 }
 .stock__frame {
   display: -webkit-box;
@@ -582,8 +588,9 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .stock__name {
   font-size: 16px;
