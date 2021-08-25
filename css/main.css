@@ -490,7 +490,7 @@ input {
 }
 
 .callback {
-  background-image: url(../../img/bg/fon.png);
+  background-image: url(./../img/bg/fon.png);
   border-radius: 6px;
   margin-top: 24px;
 }
