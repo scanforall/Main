@@ -1,0 +1,70 @@
+.contacts {
+
+    
+    &__frame {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__table {
+        background: $white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        min-width: 536px;
+        padding: 16px;
+        border-radius: 6px;
+
+        &-left {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+
+        &-right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    &__telephone {
+
+        &__title {
+            display: flex;
+        }
+    }
+
+    &__adress {
+
+        &__title {
+            display: flex;
+        }
+    }
+
+    &__time {
+
+        &__title {
+            display: flex;
+        }
+    }
+
+    &__margin {
+
+        &-right {
+            margin-right: 10px;
+        }
+
+        &-bottom {
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        
+    }
+
+    &__height-img {
+        height: 14px
+    }
+}

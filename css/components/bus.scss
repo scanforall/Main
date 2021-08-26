@@ -1,0 +1,13 @@
+.bus {
+    flex-direction:column;
+    margin-top: 8px;
+
+    &__item {
+        margin-bottom: 6px;
+    }
+
+    &__img {
+        height: 14px;
+        margin-right: 8px;
+    }
+}
