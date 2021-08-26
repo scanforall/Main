@@ -1,0 +1,15 @@
+.galery {
+    background:$white;
+    padding: 32px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+
+    &-margin__top {
+        margin-top: 26px;
+    }
+
+    &-margin__bottom {
+        margin-bottom: 58px;
+    }
+}

@@ -1,3 +1,14 @@
 .cards {
     justify-content: space-between;
+
+    &__margin{
+
+        &__right {
+            margin-right: 10px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
 }

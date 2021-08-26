@@ -1,0 +1,39 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+
+    &__title {
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    &__margin {
+        &__right {
+            margin-right: 15px;
+        }
+    }
+
+    &__frame {
+        display: flex;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        font-weight: 300;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__item {
+        margin-bottom: 4px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

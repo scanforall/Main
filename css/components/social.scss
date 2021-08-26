@@ -1,0 +1,12 @@
+.social {
+    align-items: center;
+    margin-left: 50px;
+
+    &__item {
+        margin-right: 10px;
+
+        & :last-child {
+            margin-right: 0;
+        }
+    }
+}
