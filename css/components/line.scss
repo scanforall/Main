@@ -5,6 +5,12 @@
     &__logo {
         border-left: 1px solid $grayLight;
         height: 50px;
+
+        &__tablets {
+            @include tablets {
+                display: none;
+            }
+        }
     }
 
     &__horizont {

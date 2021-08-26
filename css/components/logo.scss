@@ -4,15 +4,28 @@
   
     &__text {
       margin-left: 19px;
+
+      @include tablets {
+
+        margin-left: 4px;
+      }
     }
   
     &__name {
       font-size: 18px;
       font-weight: 700;
+
+      @include largetablets {
+        font-size: 13px;
+      }
     }
   
     &__desc {
       text-transform: capitalize;
+
+      @include largetablets {
+        font-size: 9px;
+      }
     }
     
   }

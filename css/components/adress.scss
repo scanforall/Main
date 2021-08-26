@@ -1,3 +1,7 @@
 .adress {
     align-items: center;
+
+    @include tablets {
+        display: none;
+    }
 }

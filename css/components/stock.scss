@@ -37,6 +37,10 @@
             margin-right: 0;
             max-height: 85%
         }
+
+        @include tablets {
+            display: none;
+        }
     }
 
     &__frame {

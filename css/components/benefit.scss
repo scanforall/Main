@@ -1,8 +1,8 @@
 .benefit {
-    min-height: 210px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-top: 16px;
 
     &__icon {
         padding: 6px;
@@ -15,12 +15,20 @@
         font-weight: 600;
         align-items: center;
 
+        @include tablets {
+            font-size: 10px;
+        }
+
     }
 
     &__list {
         display: flex;
         padding: 30px;
         justify-content: space-between;
+
+        @include tablets {
+            padding: 10px;
+        }
     }
 
     &__item {
@@ -32,6 +40,10 @@
         flex-direction: column;
         
         &-text {
+
+            @include tablets {
+                font-size: 10px;
+            }
 
             &::before {
                 content: "";

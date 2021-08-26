@@ -1,7 +1,11 @@
 .process {
 
     &__list {
-        justify-content: space-between;
+        justify-content: center;
+        
+        @include tablets {
+            flex-wrap: wrap;
+        }
     }
 
     &__item {
@@ -12,6 +16,8 @@
         border-radius: 6px;
         padding: 10px;
         max-width: 175px;
+        margin: 10px
+
     }
 
     &__count {
@@ -29,4 +35,10 @@
         font-size: 13px;
         text-align: center;
     }
+
+    // &__img {
+    //     @include tablets {
+    //         display: none;
+    //     }
+    // }
 }
