@@ -15,6 +15,10 @@
         align-items: center;
         justify-content: space-between;
 
+        @include largetablets {
+            padding: 12px 5px; 
+        }
+
         &-blue {
             background: $lightBlue;
         }
@@ -28,6 +32,11 @@
 
     &__img {
         margin-right: 14px;
+
+        @include largetablets {
+            margin-right: 0;
+            max-height: 85%
+        }
     }
 
     &__frame {
@@ -44,11 +53,19 @@
         font-size: 16px;
         text-transform: uppercase;
         font-weight: 400;
+
+        @include largetablets {
+            font-size: 12px;
+        }
     }
 
     &__value {
         font-size: 16px;
         text-transform: uppercase;
         font-weight: 600;
+
+        @include largetablets {
+            font-size: 13px;
+        }
     }
 }

@@ -7,11 +7,12 @@
     &__list {
         justify-content: space-between;
         flex-wrap: wrap;
+
+        @include largetablets {
+            justify-content: center;
+        }
     }
 
-    &__item {
-        margin-bottom: 10px;
-    }
 
     &__item {
         background: $white;
@@ -23,6 +24,13 @@
         min-height: 244px;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 10px;
+
+        @include largetablets {
+            min-width: 227px;
+            margin-right: 10px;
+            
+        }
     }
 
     &__name {

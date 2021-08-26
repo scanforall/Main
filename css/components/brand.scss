@@ -3,6 +3,10 @@
     &__list {
         justify-content: space-between;
         flex-wrap: wrap;
+
+        @include largetablets {
+            justify-content: center;
+        }
     }
 
     &__link {
@@ -24,5 +28,14 @@
 
     &__item {
         margin-bottom: 10px;
+
+        @include largetablets {
+            margin-right: 10px;
+
+            & :last-child {
+                margin-right: 0;
+            }
+        }
     }
+      
 }

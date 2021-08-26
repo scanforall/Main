@@ -1,0 +1,33 @@
+.largetablets {
+
+    @include largetablets {
+        display: none;
+    }
+    
+    &__nowrap {
+        
+        @include largetablets {
+            white-space: nowrap;
+        }
+    }
+
+    &__font-13 {
+        @include largetablets {
+            font-size: 13px;
+        } 
+    }
+
+    &__font-9 {
+        @include largetablets {
+            font-size: 9px;
+        } 
+    }
+
+    &__margin-footer {
+
+        @include largetablets {
+            margin-right: 4px;
+        }
+    }
+}
+

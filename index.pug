@@ -11,26 +11,32 @@ html(lang="en")
         .container
           .header__tp
             ul.header__top-menu
-              li.header__top-menu__item
-                a(href='#') О нас
+              li.header__top-menu__item.largetablets__nowrap
+                a.header__top-menu__link(href='#') О нас
               .line
               li.header__top-menu__item
-                a(href='#') Отзывы
+                a.header__top-menu__link(href='#') Отзывы
               .line
               li.header__top-menu__item
-                a(href='#') Гарантия
+                a.header__top-menu__link(href='#') Гарантия
               .line
               li.header__top-menu__item
-                a(href='#') Для юр лиц
+                a.header__top-menu__link(href='#') Для юр лиц
               .line
               li.header__top-menu__item
-                a(href='#') Оплата картой
+                a.header__top-menu__link(href='#') Оплата картой
               .line
               li.header__top-menu__item
-                a(href='#') Вызвать курьера
+                a.header__top-menu__link(href='#') Вызвать курьера
               .line
               li.header__top-menu__item
-                a(href='#') Контакты            
+                a.header__top-menu__link(href='#') Контакты            
+              .line
+              li.header__top-menu__item
+                a.header__top-menu__link(href='#') Вакансии           
+              .line
+              li.header__top-menu__item
+                a.header__top-menu__link(href='#') Купить-Продать           
           .line__horizont
           .header__mp
             a(href="").logo
@@ -52,7 +58,7 @@ html(lang="en")
               |м. Зябликово,
               br
               |ул. Воронежская,  д. 36, корп. 1
-            .line__logo
+            .line__logo.largetablets
             a.header__wa(title='Написать нам в WhatsApp', target='_blank', href='https://wa.me/79015555555')
               img.header__wa__logo(src='./img/logo/whatsapp.svg', title='Ремонт Академическая, Зябликово WhatsApp', alt='Ремонт Зябликово WhatsApp')
               .header__wa__text WhatsApp
@@ -66,49 +72,49 @@ html(lang="en")
             ul.menu
               li.menu__list
                 a.menu__link(href='#')
-                  img(src="./img/menu/mobile-phone.svg", alt="")
+                  img.header__menu__img(src="./img/menu/mobile-phone.svg", alt="")
                   .menu__item
                     .menu__item__text Ремонт
                     .menu__item__description Телефонов
               li.menu__list
                 a.menu__link(href='#')
-                  img(src="./img/menu/tablet.svg", alt="")
+                  img.header__menu__img(src="./img/menu/tablet.svg", alt="")
                   .menu__item
                     .menu__item__text Ремонт
                     .menu__item__description Планшетов
               li.menu__list
                 a.menu__link(href='#')
-                  img(src="./img/menu/laptop.svg", alt="")
+                  img.header__menu__img(src="./img/menu/laptop.svg", alt="")
                   .menu__item
                     .menu__item__text Ремонт
                     .menu__item__description Ноутбуков
               li.menu__list
                 a.menu__link(href='#')
-                  img(src="./img/menu/personal-computer.svg", alt="")
+                  img.header__menu__img(src="./img/menu/personal-computer.svg", alt="")
                   .menu__item
                     .menu__item__text Ремонт
                     .menu__item__description Компьютеров
               li.menu__list
                 a.menu__link(href='#')
-                  img(src="./img/menu/desktop.svg", alt="")
+                  img.header__menu__img(src="./img/menu/desktop.svg", alt="")
                   .menu__item
                     .menu__item__text Ремонт
                     .menu__item__description Моноблоков
               li.menu__list
                 a.menu__link(href='#')
-                  img(src="./img/menu/tv-monitor.svg", alt="")
+                  img.header__menu__img(src="./img/menu/tv-monitor.svg", alt="")
                   .menu__item
                     .menu__item__text Ремонт
                     .menu__item__description Телевизоров
               li.menu__list
                 a.menu__link(href='#')
-                  img(src="./img/menu/game-controller.svg", alt="")
+                  img.header__menu__img(src="./img/menu/game-controller.svg", alt="")
                   .menu__item
                     .menu__item__text Ремонт
                     .menu__item__description Приставок
               li.menu__list
                 a.menu__link(href='#')
-                  img(src="./img/menu/graphics-card.svg", alt="")
+                  img.header__menu__img(src="./img/menu/graphics-card.svg", alt="")
                   .menu__item
                     .menu__item__text Ремонт
                     .menu__item__description Видеокарт
@@ -306,11 +312,11 @@ html(lang="en")
           .callback
             .callback__frame
               .callback__table
-                .callback__title Заказать обратный звонок
+                .callback__title Оставить заявку на ремонт
                 .callback__panel
                   input.callback__input(type="имя" placeholder="ВАШЕ ИМЯ")
                   input.callback__input(type="номер" placeholder="НОМЕР")
-                  button.callback__button Перезвоните мне
+                  button.callback__button Оставить заявку на ремонт
                 .callback__acept
                   input(type="checkbox" id="acept" )
                   label.callback__label(for="acept") Нажимая на кнопку, «Перезвоните мне» вы даете согласие на обработку своих персональных данных в соотвествии с политикой конфиденциальности
@@ -603,11 +609,11 @@ html(lang="en")
                 a(href="").logo.footer__margin__right
                   img(src="./img/logo/logo-footer.png", alt="")
                   .logo__text
-                    .logo__name|DOCTOR
+                    .logo__name.largetablets__font-13|DOCTOR
                       br
                       |SMARTPHONOFF
-                    .logo__desc Сервисный Центр
-                .header__tel.footer__tel.footer__margin__right
+                    .logo__desc.largetablets__font-9 Сервисный Центр
+                .header__tel.footer__tel.footer__margin__right.largetablets__margin-footer
                   a(href='tel:=+74993500001') +7 (499) 350-00-01
                   a(href='tel:=+79015555555') +7 (901) 555-55-55
                 .yandex-review
@@ -669,7 +675,7 @@ html(lang="en")
                 .footer__menu__title Информация
                 ul.footer__menu 
                   li.footer__menu__item 
-                    a.footer__menu__item__link(href="#") О компании
+                    a.footer__menu__item__link(href="#") О нас
                   li.footer__menu__item 
                     a.footer__menu__item__link(href="#") Доставка
                   li.footer__menu__item 
@@ -691,7 +697,5 @@ html(lang="en")
                 img.cards__img(src="./img/pay-card/sber_grey.png", alt="")
             .rights © 2021 Doctor Smartphonoff. Все права защищены
        
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
-    script(src="./js/hamburger.js")
-    script(src="./js/slider.js")
+
    

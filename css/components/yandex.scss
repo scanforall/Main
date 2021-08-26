@@ -1,0 +1,8 @@
+.yandex {
+
+    &-review {
+        @include largetablets {
+            max-width: 146px;
+        }
+    }
+}
