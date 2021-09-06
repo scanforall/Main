@@ -1168,6 +1168,11 @@ input {
           align-items: center;
   margin-right: 10px;
 }
+@media screen and (max-width: 768px) {
+  .search {
+    display: none;
+  }
+}
 .search__title {
   margin-bottom: 10px;
   font-weight: 600;
@@ -1244,9 +1249,19 @@ input {
     margin-right: 4px;
   }
 }
+@media screen and (max-width: 992px) and (max-width: 576px) {
+  .largetablets__margin-footer {
+    font-size: 12px;
+  }
+}
 
 @media screen and (max-width: 992px) {
   .yandex-review {
     max-width: 146px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .yandex-review {
+    display: none;
   }
 }

@@ -27,6 +27,10 @@
 
         @include largetablets {
             margin-right: 4px;
+
+            @include landphones {
+                font-size: 12px;
+            }
         }
     }
 }

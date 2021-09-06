@@ -4,6 +4,10 @@
     align-items: center;
     margin-right: 10px;
 
+    @include tablets {
+        display: none;
+    }
+
     &__title {
         margin-bottom: 10px;
         font-weight: 600;

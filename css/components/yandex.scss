@@ -4,5 +4,9 @@
         @include largetablets {
             max-width: 146px;
         }
+
+        @include landphones {
+            display: none;
+        }
     }
 }
