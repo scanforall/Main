@@ -673,6 +673,12 @@ input {
     margin-right: 10px;
   }
 }
+@media screen and (max-width: 576px) {
+  .device__item {
+    min-height: auto;
+    min-width: 180px;
+  }
+}
 .device__name {
   text-transform: uppercase;
   font-weight: 600;
@@ -691,6 +697,11 @@ input {
   color: white;
   border-radius: 21px;
   padding: 6px 12px;
+}
+@media screen and (max-width: 576px) {
+  .device__img {
+    max-width: 25%;
+  }
 }
 
 .brand__list {
@@ -1329,6 +1340,14 @@ input {
   }
 }
 
+.gb__icon {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .gb__icon {
+    display: block;
+  }
+}
 .gb__menu {
   display: none;
 }

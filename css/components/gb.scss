@@ -1,5 +1,13 @@
 .gb {
 
+    &__icon {
+        display: none;
+
+        @include landphones {
+            display:block;
+        }
+    }
+
     &__menu {
         display: none;
     }
