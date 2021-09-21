@@ -1,9 +1,18 @@
 .gb {
+
+    &__menu {
+        display: none;
+    }
     
     &__list {
-        display: none;
+        display: flex;
         flex-direction: column;
-
+        position: fixed;
+        background: white;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        
     }
 
     &__link {
@@ -18,6 +27,7 @@
     top: 4%;
     left: 92%;
     transform: translate(-50%, -50%);
+    z-index: 10;
     }
 
     &__bar1, &__bar2, &__bar3 {
@@ -48,4 +58,5 @@ transform: rotate(45deg) translate(-8px, -8px) ;
 
 .hidden {
     display: flex;
+    transition: 0.4s;
 }

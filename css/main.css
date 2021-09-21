@@ -1329,12 +1329,22 @@ input {
   }
 }
 
-.gb__list {
+.gb__menu {
   display: none;
+}
+.gb__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: fixed;
+  background: white;
+  left: 0;
+  top: 0;
+  width: 100vw;
 }
 .gb__link {
   padding: 8px;
@@ -1347,6 +1357,7 @@ input {
   left: 92%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  z-index: 10;
 }
 .gb__bar1, .gb__bar2, .gb__bar3 {
   width: 35px;
@@ -1378,4 +1389,6 @@ input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
