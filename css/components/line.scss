@@ -5,6 +5,9 @@
     &__logo {
         border-left: 1px solid $grayLight;
         height: 50px;
+        @include landphones {
+            display: none;
+        }        
 
         &__tablets {
             @include tablets {
@@ -15,6 +18,10 @@
 
     &__horizont {
         border-top: 1px solid $grayLight;
+
+        @include landphones {
+            display: none;
+          }
     }
    
 }

@@ -11,6 +11,11 @@
         font-size: 26px;
         text-transform: uppercase;
 
+        @include landphones {
+            font-size: 14px;
+            text-align: center;
+        }
+
         &-small {
             font-weight: 600;
             text-align: center;
