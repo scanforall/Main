@@ -17,6 +17,10 @@
     align-items: center;
     min-height: 44px;
     margin-left: 10px;
+    
+    @include largetablets {
+      font-size: 10px;
+  }
 
     &__link {
       text-align: center;
@@ -44,9 +48,7 @@
     justify-content: space-around;
   }
   
-  &__bp {
-    
-  }
+  
 
   &__wa {
     display: flex;

@@ -13,5 +13,9 @@
         @include tablets {
             font-size: 10px;
         }
+
+        @include landphones {
+            font-size: 8px;
+        }
     }
 }

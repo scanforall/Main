@@ -20,6 +20,10 @@
         padding: 16px;
         border-radius: 6px;
 
+        @include tablets {
+            min-width: inherit;
+        }
+
         &-left {
             
             display: flex;

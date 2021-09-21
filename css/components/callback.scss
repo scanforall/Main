@@ -45,6 +45,12 @@
         padding: 14px 20px;
         border-radius: 6px;
         margin-right: 10px;
+
+        @include tablets {
+            margin-right: 0;
+        }
+
+
     }
 
     &__button {
