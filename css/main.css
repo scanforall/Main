@@ -205,6 +205,11 @@ input {
     font-size: 15px;
   }
 }
+@media screen and (max-width: 480px) {
+  .header__tel {
+    margin-right: 33px;
+  }
+}
 .header__tel__span {
   font-size: 10px;
 }
