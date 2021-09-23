@@ -24,6 +24,10 @@
             @include landphones {
                 text-align: left;
             }
+
+            @include phones {
+                font-size: 10px;
+            }
         }
 
         &-bottom {

@@ -16,7 +16,11 @@
         border-radius: 6px;
         padding: 10px;
         max-width: 175px;
-        margin: 10px
+        margin: 10px;
+
+        @include phones {
+            max-width: 132px;
+        }
 
     }
 

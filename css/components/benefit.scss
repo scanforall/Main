@@ -6,6 +6,10 @@
 
     &__icon {
         padding: 6px;
+
+        @include phones {
+            display: none;
+        }
     }
 
     &__title {
@@ -33,6 +37,10 @@
 
     &__item {
         flex-direction: column;
+
+        @include phones {
+            width: 18vw;
+        }
         
     }
 
@@ -43,6 +51,15 @@
 
             @include tablets {
                 font-size: 10px;
+            }
+
+            @include phones {
+               
+                &::before {
+                    display: none;
+    
+                }
+
             }
 
             &::before {

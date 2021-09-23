@@ -18,7 +18,11 @@
         @include largetablets {
             padding: 12px 5px; 
         }
-
+        
+        @include phones {
+            min-width: 0;
+            font-size: 8px;
+        }
         &-blue {
             background: $lightBlue;
         }
@@ -45,6 +49,10 @@
 
     &__frame {
         display: flex;
+
+        @include phones {
+            text-align: center;
+        }
     }
 
     &__desc {
@@ -61,6 +69,10 @@
         @include largetablets {
             font-size: 12px;
         }
+
+        @include phones {
+            font-size: 10px;
+        }
     }
 
     &__value {
@@ -71,5 +83,11 @@
         @include largetablets {
             font-size: 13px;
         }
+
+        @include phones {
+            font-size: 8px;
+        }
     }
+
+
 }

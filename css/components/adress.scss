@@ -1,7 +1,17 @@
 .adress {
     align-items: center;
 
-    @include tablets {
-        display: none;
+    &__top {
+        
+        @include tablets {
+            display: none;
+        }
     }
+    &__bottom {
+        
+        @include tablets {
+            display: none;
+        }
+    }
+
 }

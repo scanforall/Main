@@ -1,6 +1,10 @@
 .cards {
     justify-content: space-between;
 
+    @include phones {
+        height: 2vh;
+    }
+
     &__margin{
 
         &__right {

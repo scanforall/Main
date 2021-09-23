@@ -29,6 +29,11 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+
+            @include phones {
+                font-size: 10px;
+                margin-right: 10px;
+            }
             
         }
 
@@ -36,6 +41,10 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+
+            @include phones {
+                font-size: 8px;
+            }
         }
     }
 
@@ -76,4 +85,13 @@
     &__height-img {
         height: 14px
     }
+
+    &__tel--font {
+
+        @include phones {
+            font-size: 10px;
+            text-align: center;
+        }
+    }
+
 }

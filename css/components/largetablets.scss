@@ -14,7 +14,11 @@
     &__font-13 {
         @include largetablets {
             font-size: 13px;
-        } 
+        }
+
+        @include phones {
+            font-size: 9px;
+        }
     }
 
     &__font-9 {
