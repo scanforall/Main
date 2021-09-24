@@ -3,6 +3,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    @include phones {
+        min-height: 275px;
+    }
+    
     
     &__bg {
     
@@ -16,11 +21,38 @@
             font-size: 18px;
             font-weight: 300;
             text-transform: capitalize;
+
+            @include landphones {
+                font-size: 16px;
+            }
+
+            @include phones {
+                font-size: 14px;
+            }
+
+            @include miniphones {
+                font-size: 10px;
+            }
         }
 
         &-h1 {
             font-size: 48px;
             line-height: 48px;
+
+            @include landphones {
+                font-size: 35px;
+                line-height: 35px;
+            }
+
+            @include phones {
+                font-size: 30px;
+                line-height: 30px;
+            }
+
+            @include miniphones {
+                font-size: 24px;
+                line-height: 24px;
+            }
 
         }
 
@@ -28,6 +60,18 @@
             font-size: 18px;
             font-weight: 300;
             line-height:20px;
+            
+            @include landphones {
+                font-size: 16px;
+            }
+
+            @include phones {
+                font-size: 14px;
+            }
+            
+            @include miniphones {
+                font-size: 10px;
+            }
         }
     }
 

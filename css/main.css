@@ -546,6 +546,11 @@ input {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+@media screen and (max-width: 480px) {
+  .promo {
+    min-height: 275px;
+  }
+}
 .promo__bg {
   background: #1860BA;
 }
@@ -557,14 +562,62 @@ input {
   font-weight: 300;
   text-transform: capitalize;
 }
+@media screen and (max-width: 576px) {
+  .promo__text-h2 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .promo__text-h2 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .promo__text-h2 {
+    font-size: 10px;
+  }
+}
 .promo__text-h1 {
   font-size: 48px;
   line-height: 48px;
+}
+@media screen and (max-width: 576px) {
+  .promo__text-h1 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .promo__text-h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .promo__text-h1 {
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
 .promo__text-h3 {
   font-size: 18px;
   font-weight: 300;
   line-height: 20px;
+}
+@media screen and (max-width: 576px) {
+  .promo__text-h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .promo__text-h3 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .promo__text-h3 {
+    font-size: 10px;
+  }
 }
 
 .benefit {
@@ -1069,6 +1122,11 @@ input {
 @media screen and (max-width: 480px) {
   .process__item {
     max-width: 132px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .process__item {
+    max-width: 120px;
   }
 }
 .process__count {
